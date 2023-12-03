@@ -1,0 +1,43 @@
+#leftPane {
+    -fx-background-color: #3498db; /* Azul */
+    -fx-border-color: #2980b9; /* Azul más oscuro */
+    -fx-border-width: 0 1 0 0; /* Bordes solo a la derecha para separar elementos */
+}
+
+.opcionMenu:hover {
+    -fx-background-color: #5faee3; /* Azul más claro al pasar el ratón */
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+#barraSup {
+    -fx-background-color: #333333; /* Gris oscuro */
+}
+
+.labelTitulo {
+    -fx-text-fill: #ecf0f1; /* Texto blanco */
+}
+
+#btnNuevaVenta {
+    -fx-background-color:#ecf0f1;
+    -fx-text-fill: black;
+    -fx-border-color: #bdc3c7; /* Borde gris más oscuro */
+    -fx-border-width: 1;
+}
+
+#tblVentas {
+    -fx-background-color: #ecf0f1; /* Gris claro */
+    -fx-text-fill: #2c3e50; /* Texto gris oscuro */
+    -fx-border-color: #bdc3c7; /* Borde gris más oscuro */
+    -fx-border-width: 1;
+}
+
+#tblVentas .column-header-background {
+    -fx-background-color: white; /* Color de fondo para las cabeceras de columna */
+    -fx-text-fill: #2c3e50; /* Texto gris oscuro */
+    -fx-border-color: #95a5a6; /* Borde gris más oscuro */
+    -fx-border-width: 1 1 1 1; /* Bordes solo a la derecha y abajo */
+}
+
+
+// #EFFEF9  #EBF1FE
